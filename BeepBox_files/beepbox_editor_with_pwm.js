@@ -1101,7 +1101,7 @@ var beepbox;
                             this.instrumentWaves[channel][i] = 1;
                         this.instrumentFilters[channel][i] = 1;
                         this.instrumentChorus[channel][i] = 1;
-						this.instrumentBassFX[channel][i] = 1;
+			this.instrumentBassFX[channel][i] = 1;
                         this.instrumentEffects[channel][i] = 1;
                     }
                     else {
@@ -6504,7 +6504,7 @@ var beepbox;
                 }
                 else if (_this._doc.channel == 2) {
                     _this._chorusDropDownGroup.style.visibility = "visible";
-					_this._bassDropDownGroup.style.visibility = "visible";
+		    _this._bassDropDownGroup.style.visibility = "visible";
                     _this._effectDropDownGroup.style.visibility = "visible";
                     _this._filterDropDownGroup.style.visibility = "visible";
                     _this._waveNames.style.display = "block";
