@@ -6311,7 +6311,7 @@ var beepbox;
             this._keyDropDown = buildOptions(select({ style: "width:9em;" }), beepbox.Music.keyNames);
             this._tempoSlider = input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: "11", value: "7", step: "1" });
             this._reverbSlider = input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: "3", value: "0", step: "1" });
-			this._riffSlider = input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: "3", value: "0", step: "1" });
+			this._riffSlider = input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: "10", value: "0", step: "1" });
             this._partDropDown = buildOptions(select({ style: "width:9em;" }), beepbox.Music.partNames);
             this._patternSettingsLabel = div({ style: "visibility: hidden; margin: 3px 0; text-align: center;" }, [text("Pattern Settings")]);
             this._instrumentDropDown = select({ style: "width:9em;" });
