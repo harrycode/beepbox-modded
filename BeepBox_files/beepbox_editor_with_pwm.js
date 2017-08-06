@@ -171,7 +171,7 @@ var beepbox;
     Music.keyTransposes = [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12];
     Music.tempoNames = ["molasses", "slow", "leisurely", "moderate", "steady", "brisk", "hasty", "fast", "strenuous", "grueling", "hyper", "ludicrous"];
     Music.reverbRange = 4;
-	Music.riffRange = 4;
+	Music.riffRange = 10;
     Music.beatsMin = 1;
     Music.beatsMax = 16;
     Music.barsMin = 1;
